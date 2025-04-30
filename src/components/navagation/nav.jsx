@@ -15,7 +15,7 @@ export default function Header() {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2">
             <img
-              src="/images/fwogf.png"
+              src="/images/Fwog Logo.png"
               alt="Redfwog Logo"
               className="w-12 h-12 rounded-full border-4 object-contain"
             />
@@ -41,7 +41,7 @@ export default function Header() {
               &times;
             </button>
           </div>
-          <ul className="flex flex-col gap-6 mt-6 text-base font-semibold capitalize">
+          <ul className="flex flex-col gap-6 mt-6 text-base font-semibold capitalize ">
             {["about", "how to buy", "Tokenomics", "road map", "eco system", "FAQs", "Disclaimer"].map((text, idx) => (
               <li key={idx}>
                 <Link
@@ -67,16 +67,16 @@ export default function Header() {
       <div className="hidden md:flex justify-between items-center px-10 py-4">
         <Link to="/" className="flex items-center gap-4">
           <img
-            src="/images/fwogf.png"
+            src="/images/Fwog Logo.png"
             alt="Redfwog Logo"
             className="w-20 h-20 rounded-full border-4 border-navredpink"
           />
           <span className="text-3xl font-semibold capitalize">redfwog</span>
         </Link>
         <nav>
-          <ul className="flex gap-8 text-lg font-semibold capitalize text-navredcyan">
+          <ul className="flex gap-8 text-lg font-semibold capitalize text-navredcyan ">
             {["about", "how to buy", "Tokenomics", "road map", "eco system", "FAQs", "Disclaimer"].map((text, idx) => (
-              <li key={idx}>
+              <li key={idx} className="hover:text-red-600 hover:underline">
                 <Link to={`/${text === "about" ? "" : text.toLowerCase().replace(/\s/g, "")}`}>
                   {text}
                 </Link>
