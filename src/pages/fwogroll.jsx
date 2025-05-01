@@ -47,6 +47,7 @@ const cards = [
             </article>
           ))}
         </div>
+        <div className=" mt-6 flex justify-center w-full"><button className=" bg-gradient-to-r from-black to-red-600 text-lg font-semibold capitalize text-white rounded-xl shadow-xl w-full md:w-1/6 h-12 border-4 border-solid border-red-600">buy red fwog</button></div>
         </div>
       </section>
     );
