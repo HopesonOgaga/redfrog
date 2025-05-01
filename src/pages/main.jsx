@@ -5,7 +5,7 @@ import Lore from "./lore";
 
 export default function Main() {
   return (
-    <section className="h-full w-full ">
+    <section className=" w-full  bg-white bg-gradient-to-r from-black to-red-600 h-screen  ">
       <Home></Home>
       <Lore></Lore>
       <Croak></Croak>

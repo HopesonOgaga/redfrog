@@ -1,9 +1,7 @@
-import Header from "../components/navagation/nav";
-
 export default function Lore() {
     return (
         <>
-      <section className="bg-gradient-to-r from-black to-red-600 min-h-screen w-full py-12 px-4 flex flex-col items-center">
+      <section className="bg-gradient-to-r from-black to-red-600 h-screen w-full py-12 px-4 flex flex-col items-center">
         {/* Heading */}
         <h2 className="text-white font-semibold text-4xl md:text-5xl capitalize text-center mb-10">
           the <span className="text-red-800">redfwog</span> lore
