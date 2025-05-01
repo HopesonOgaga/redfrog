@@ -23,10 +23,10 @@ const cards = [
 
 export default function Croak() {
   return (
-    <section className="py-12 px-4 bg-white bg-gradient-to-r from-black to-red-600 h-screen flex justify-center items-center ">
+    <section className="py-12  px-4 bg-white bg-gradient-to-r from-black to-red-600 h-screen flex justify-center items-center ">
       <div>
       <div className="mb-10 text-center">
-        <h2 className="capitalize text-5xl font-bold">
+        <h2 className="capitalize text-2xl md:text-5xl font-bold">
           why <span className="text-red-800">croak</span> with us
         </h2>
       </div>
