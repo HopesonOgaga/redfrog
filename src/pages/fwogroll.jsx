@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const cards = [
   {
     image: "/images/meta.png",
@@ -23,7 +25,14 @@ const cards = [
 
 export default function Fwog() {
   return (
-    <section className="py-12 px-4 bg-white bg-gradient-to-r from-black to-red-600 h-screen flex justify-center items-center ">
+    <section className="py-12 px-4 bg-white bg-gradient-to-r from-black to-red-600 h-full md:h-screen flex justify-center items-center ">
+      <div className="hidden md:flex">
+        <Link to={"/lore"}>
+          <button className="bg-gradient-to-r from-black to-red-600 hover:bg-red-600  text-white font-semibold capitalize text-lg w-20 h-10 rounded-lg shadow-sm">
+            previous
+          </button>
+        </Link>
+      </div>
       <div className="flex flex-col w-full h-full gap-6 ">
         <div className="mb-10 text-center">
           <h2 className="capitalize text-5xl font-bold">
@@ -54,6 +63,26 @@ export default function Fwog() {
             buy red fwog
           </button>
         </div>
+        {/* mobile button */}
+        <div className="flex gap-4 w-full h-full justify-between md:hidden">
+          <Link to={"/lore"} className="w-full h-full">
+            <button className="bg-gradient-to-r from-black to-red-600 hover:bg-red-600  text-white font-semibold capitalize text-lg w-full  h-12 rounded-lg shadow-sm">
+              previous
+            </button>
+          </Link>
+          <Link to={"/croak"} className="w-full h-full">
+            <button className="bg-gradient-to-r from-black to-red-600 hover:bg-red-600  text-white font-semibold capitalize text-lg w-full h-12 rounded-lg shadow-sm">
+              next
+            </button>
+          </Link>
+        </div>
+      </div>
+      <div className="hidden md:flex">
+        <Link to={"/croak"}>
+          <button className="bg-gradient-to-r from-black to-red-600 hover:bg-red-600  text-white font-semibold capitalize text-lg w-20 h-10 rounded-lg shadow-sm">
+            next
+          </button>
+        </Link>
       </div>
     </section>
   );
