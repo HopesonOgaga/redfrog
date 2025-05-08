@@ -1,0 +1,26 @@
+{
+  "slogan": {
+    "ribbit": "coasse",
+    "gains": "pour les gains",
+    "red": "grenouille",
+    "fwog": "rouge",
+    "run": "reviens",
+    "back": "en force"
+  },
+  "description": "La crypto-mème dégen qu’Avax n’attendait pas.",
+  "buttons": {
+    "join": "rejoins l’étang",
+    "buy": "achète redfwog",
+    "next": "suivant"
+  },
+  "nav": {
+    "about": "à propos",
+    "howtobuy": "comment acheter",
+    "tokenomics": "tokenomics",
+    "roadmap": "feuille de route",
+    "ecosystem": "écosystème",
+    "faqs": "FAQ",
+    "disclaimer": "avertissement",
+    "buy": "Acheter Red Fwog"
+  }
+}

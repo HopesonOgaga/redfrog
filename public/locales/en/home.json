@@ -1,0 +1,26 @@
+{
+  "slogan": {
+    "ribbit": "ribbit",
+    "gains": "for gains",
+    "red": "red",
+    "fwog": "fwog",
+    "run": "run",
+    "back": "it back"
+  },
+  "description": "The degen meme coin Avax didn’t know it needed.",
+  "buttons": {
+    "join": "join the pond",
+    "buy": "buy redfwog",
+    "next": "next"
+  },
+  "nav": {
+    "about": "about",
+    "howtobuy": "how to buy",
+    "tokenomics": "Tokenomics",
+    "roadmap": "road map",
+    "ecosystem": "eco system",
+    "faqs": "FAQs",
+    "disclaimer": "Disclaimer",
+    "buy": "Buy Red Fwog"
+  }
+}
